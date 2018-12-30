@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial,sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.bg-pink {
+    background: #e48f9e;
+}
+
+.bg-red {
+    background: #af142f;
+}
+
+.bg-yellow {
+    background: #cabf43;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.mb-4 {
+  margin: 40px 0;
+}
+
+.padpush-3 {
+  padding: 15px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.box.bg-gray {
+  background: #797878;
+}
+
+.side-box {
+    float: right;
+    padding: 10px;
+    width: 130px;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.flex {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.flex-col-lg-3 {
+    margin: 15px;
+}
+
+/********* Dekstop size **********/
+
+@media (min-width:992px) {
+  .flex-col-lg-3 {
+    width: 33.33%;
+  }
+}
+
+
+/******** Tablet size **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .flex {
+    flex-wrap: wrap;
+}
+
+  .flex-col-md-6 {
+    flex-basis: 45.9%;
+  }
+  .flex-col-md-12 {
+    flex-basis: 100%;
+  }
+}
+
+
+/******** mobile size **********/
+
+@media (max-width:767px) {
+  .flex {
+    flex-wrap: wrap;
+}
+  .flex-col-sm-12 {
+    flex-basis: 100%;
+  }
+}
